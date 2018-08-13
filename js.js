@@ -26,3 +26,5 @@ for(var c = 0; c<arrayOfNumbers.length; c++){
 }
 
 document.getElementById("header3").innerHTML = redoNumbers;
+
+// This is correct. From Kenn
