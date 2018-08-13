@@ -3,7 +3,7 @@ var arrayOfNames = ["PJ", "Jordan", "Caleb", "Maddi"];
 var stringOfArray = "";
 for(var i = 0; i < arrayOfNames.length; i++)
 {
-    stringOfArray += arrayOfNames[i] + " ";
+    stringOfArray += arrayOfNames[i] + " ,";
 }
 
 document.getElementById("something").textContent= stringOfArray;
