@@ -19,6 +19,7 @@ for(var x = 0; x<arrayOfNumbers.length; x++)
 document.getElementById("header2").innerHTML = newNumbers;
 
 arrayOfNumbers.pop();
+arrayOfNumbers.pop();
 
 for(var c = 0; c<arrayOfNumbers.length; c++){
     redoNumbers += arrayOfNumbers[c] + ",";
